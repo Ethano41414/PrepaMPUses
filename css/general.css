@@ -45,11 +45,11 @@ body {
     }
 
     .main_part {
-        width: 92%;
+        width: 98%;
         margin: auto;
         padding: 10px;
         text-align: left;
-        background-color: #fc1010;
+        background-color: #ffffff;
     }
 }
 
