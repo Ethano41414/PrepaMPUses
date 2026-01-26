@@ -8,12 +8,11 @@ body {
     margin: auto;
     padding: 10px;
     text-align: left;
-    background-color: #ffffff;
+    background-color: #492020;
 }
 
 .images {
     height: auto;
-    display: block;
 }
 .t100 {max-width: 100%;}
 .t95 {max-width: 95%;}
