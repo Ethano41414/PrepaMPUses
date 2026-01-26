@@ -2,13 +2,23 @@ body {
     background-image: #ffffff;
     font-family: Arial, sans-serif;
 }
-
-.main_part {
-    width: 60%;
-    margin: auto;
-    padding: 10px;
-    text-align: left;
-    background-color: #492020;
+@media (min-width: 1025px) {
+    .main_part {
+        width: 60%;
+        margin: auto;
+        padding: 10px;
+        text-align: left;
+        background-color: #492020;
+    }
+}
+@media (max-width: 800px) {
+    .main_part {
+        width: 98%;
+        margin: auto;
+        padding: 2px;
+        text-align: left;
+        background-color: #f90202;
+    }
 }
 
 .images {
@@ -37,20 +47,6 @@ body {
 .t02 {max-width: 2%;}
 
 
-@media (max-width: 800px) {
-    body {
-    background-image: #ffffff;
-    font-family: Arial, sans-serif;
-    }
-
-    .main_part {
-        width: 98%;
-        margin: auto;
-        padding: 2px;
-        text-align: left;
-        background-color: #f90202;
-    }
-}
 
 
 
