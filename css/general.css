@@ -38,7 +38,7 @@ body {
 .t02 {max-width: 2%;}
 
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     body {
     background-image: #ffffff;
     font-family: Arial, sans-serif;
