@@ -8,7 +8,7 @@ body {
         margin: auto;
         padding: 10px;
         text-align: left;
-        background-color: #492020;
+        background-color: #ffffff;
     }
 }
 @media (max-width: 800px) {
@@ -17,7 +17,7 @@ body {
         margin: auto;
         padding: 2px;
         text-align: left;
-        background-color: #f90202;
+        background-color: #ffffff;
     }
 }
 
