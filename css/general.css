@@ -13,6 +13,7 @@ body {
 
 .images {
     height: auto;
+    display: block;
 }
 .t100 {max-width: 100%;}
 .t95 {max-width: 95%;}
