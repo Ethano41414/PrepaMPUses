@@ -10,14 +10,22 @@ body {
         text-align: left;
         background-color: #ffffff;
     }
+    .sumary {
+        text-align: left;
+        font-size: 20px;
+    }
 }
-@media (max-width: 800px) {
+@media (max-width: 1024px) {
     .main_part {
         width: 98%;
         margin: auto;
         padding: 2px;
         text-align: left;
         background-color: #ffffff;
+    }
+    .sumary {
+        text-align: left;
+        font-size: 50px;
     }
 }
 
