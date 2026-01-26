@@ -13,5 +13,49 @@ body {
 
 .images {
     height: auto;
-    max-width: 100%;
 }
+.t100 {max-width: 100%;}
+.t95 {max-width: 95%;}
+.t90 {max-width: 90%;}
+.t85 {max-width: 85%;}
+.t80 {max-width: 80%;}
+.t75 {max-width: 75%;}
+.t70 {max-width: 70%;}
+.t65 {max-width: 65%;}
+.t60 {max-width: 60%;}
+.t55 {max-width: 55%;}
+.t50 {max-width: 50%;}
+.t45 {max-width: 45%;}
+.t40 {max-width: 40%;}
+.t35 {max-width: 35%;}
+.t30 {max-width: 30%;}
+.t25 {max-width: 25%;}
+.t20 {max-width: 20%;}
+.t15 {max-width: 15%;}
+.t10 {max-width: 10%;}
+.t05 {max-width: 5%;}
+.t02 {max-width: 2%;}
+
+
+@media (max-width: 768px) {
+    body {
+    background-image: #ffffff;
+    font-family: Arial, sans-serif;
+    }
+
+    .main_part {
+        width: 98%;
+        margin: auto;
+        padding: 10px;
+        text-align: left;
+        background-color: #6209f3;
+    }
+}
+
+
+
+
+
+
+
+
