@@ -4,7 +4,7 @@ body {
 }
 
 .main_part {
-    width: 70%;
+    width: 60%;
     margin: auto;
     padding: 10px;
     text-align: left;
@@ -45,7 +45,7 @@ body {
     }
 
     .main_part {
-        width: 70%;
+        width: 80%;
         margin: auto;
         padding: 10px;
         text-align: left;
