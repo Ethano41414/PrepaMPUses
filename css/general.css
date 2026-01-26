@@ -1,3 +1,16 @@
+body {
+    background-image: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.main_part {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    text-align: left;
+}
+
+
 .images {
     height: auto;
     max-width: 50%;
