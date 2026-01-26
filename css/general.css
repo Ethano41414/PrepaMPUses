@@ -4,7 +4,7 @@ body {
 }
 
 .main_part {
-    width: 90%;
+    width: 70%;
     margin: auto;
     padding: 10px;
     text-align: left;
@@ -49,7 +49,7 @@ body {
         margin: auto;
         padding: 10px;
         text-align: left;
-        background-color: #f34f09;
+        background-color: #09f353;
     }
 }
 
