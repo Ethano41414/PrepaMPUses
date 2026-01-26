@@ -4,14 +4,13 @@ body {
 }
 
 .main_part {
-    width: 90%;
+    width: 98%;
     margin: auto;
-    padding: 20px;
+    padding: 10px;
     text-align: left;
 }
 
-
 .images {
     height: auto;
-    max-width: 50%;
+    max-width: 100%;
 }
