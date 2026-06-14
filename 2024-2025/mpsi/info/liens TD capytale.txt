@@ -1,0 +1,21 @@
+#TP
+
+TP1-1 : b988-3875486
+TP1-2 : abdb-1769295
+TP2   : b3de-4019591  Correction : 2c0b-4086223
+TP3   : 50e3-4181504  Correction : 3211-4240650
+TP4   : 0db0-4278995
+TP4.5 : d932-4606524 
+TP5   : 3908-2311178
+Cours : 5a4b-2446538
+TP6   : 16f6-2446539
+TP7   : e3aa-5270357
+TP8   : 1366-5429313
+TP9   : 6be4-5646215
+TP10  : 6e8c-5868167
+TP11  : a30e-6122772
+TP12  : 1bd4-6380776
+# Oraux Centrale
+
+Ex Fonctions : 80c0-3877037
+Ex Fonctions 2 : 0a78-4006155   
