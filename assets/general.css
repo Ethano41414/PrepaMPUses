@@ -8,20 +8,6 @@ body {
     height: 100%;
 }
 
-@media (min-aspect-ratio: 16/15) and (max-aspect-ratio: 16/9) {
-    body {
-        background-repeat: repeat;
-        background-size: 50% auto;
-    }
-}
-
-@media (min-aspect-ratio: 16/10) {
-    body {
-        background-repeat: repeat;
-        background-size: 33.333% auto;
-    }
-}
-
 .images {
     height: auto;
 }
@@ -88,4 +74,22 @@ body {
 
 
 
+@media (min-aspect-ratio: 16/15) and (max-aspect-ratio: 16/9) {
+    body {
+        background-repeat: repeat;
+        background-size: 50% auto;
+    }
+}
 
+@media (min-aspect-ratio: 16/10) {
+    body {
+        background-repeat: repeat;
+        background-size: 33.333% auto;
+    }
+}
+@media (max-aspect-ratio: 1/1) {
+    .button_g {
+        width: 21rem;
+        height: 5rem;
+    }
+}
