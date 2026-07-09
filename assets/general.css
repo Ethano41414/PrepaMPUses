@@ -1,31 +1,24 @@
 body {
-    background-image: #ffffff;
-    font-family: Arial, sans-serif;
+    background-image: url("site_background.png");
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    width: 100%;
+    height: 100%;
 }
-@media (min-width: 1025px) {
-    .main_part {
-        width: 60%;
-        margin: auto;
-        padding: 10px;
-        text-align: left;
-        background-color: #ffffff;
-    }
-    .sumary {
-        text-align: left;
-        font-size: 20px;
+
+@media (min-aspect-ratio: 16/15) and (max-aspect-ratio: 16/9) {
+    body {
+        background-repeat: repeat;
+        background-size: 50% auto;
     }
 }
-@media (max-width: 1024px) {
-    .main_part {
-        width: 98%;
-        margin: auto;
-        padding: 2px;
-        text-align: left;
-        background-color: #ffffff;
-    }
-    .sumary {
-        text-align: left;
-        font-size: 50px;
+
+@media (min-aspect-ratio: 16/10) {
+    body {
+        background-repeat: repeat;
+        background-size: 33.333% auto;
     }
 }
 
