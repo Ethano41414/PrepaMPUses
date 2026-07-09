@@ -87,4 +87,9 @@ body {
         background-size: 33.333% auto;
     }
 }
-
+@media (max-aspect-ratio: 1/1) {
+    .button_g {
+        width: 21rem;
+        height: 5rem;
+    }
+}
