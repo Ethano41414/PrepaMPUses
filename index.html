@@ -3,12 +3,16 @@
 <head>
     <style>
         body {
-            background-image: url("assets/site_background.png");
-            background-size: 33.333333% auto;       /* L'image remplit l'écran */
-            background-position: center;  /* Centrée */
-            background-repeat: repeat; /* Pas de répétition */
-            background-attachment: fixed; /* Reste fixe lors du défilement */
-            margin: 0;
+            background-image: url("fond.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        @media (min-aspect-ratio: 16/10) {
+            body {
+                background-repeat: repeat-x;
+                background-size: 33.333% auto;
+            }
         }
     </style>
 </head>
