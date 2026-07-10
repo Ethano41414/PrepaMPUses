@@ -99,7 +99,6 @@ body {
         background-size: 50% auto;
     }
 }
-
 @media (min-aspect-ratio: 16/10) {
     body {
         background-repeat: repeat;
