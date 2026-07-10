@@ -108,8 +108,8 @@ body {
 }
 @media (max-aspect-ratio: 10/18) {
     .button_g {
-        width: 30rem;
-        height: 9rem;
-        font-size: 5rem;
+        width: 15rem;
+        height: 3rem;
+        font-size: 1.5rem;
     }
 }
