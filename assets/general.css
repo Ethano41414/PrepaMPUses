@@ -52,6 +52,7 @@ body {
     width: 15rem;
     height: 3rem;
 }
+.grey {background-color: dimgray;}
 
 .buttons { /*les deux boutons anglais et tp*/
     display: flex;
