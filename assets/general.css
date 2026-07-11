@@ -79,6 +79,7 @@ body {
 }
 .index_mode {bottom: 8rem;}
 .main_mode {bottom: 0rem;}
+.tomanyobj {justify-content: flex-start;}
 
 .white_text {
     color: beige;
