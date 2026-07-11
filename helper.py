@@ -1,11 +1,33 @@
-import os
+import os,tkinter as tk
+from tkinter import Tk
 gpath=os.path.dirname(__file__)
-return_use=4*"../"
-title="DS Physique MPSI 2024-2025"
+general={}
+class main(Tk):
+    def __init__(s):
+        super().__init__()
+        s.geometry("700x200")
+        s.label1=tk.Label(s,text="Titre:")
+        s.entry1=tk.Entry(s,width=300)
+        s.label2=tk.Label(s,text="Nombre de sous dossiers:")
+        s.entry2=tk.Entry(s,width=40)
+        s.validate=tk.Button(s,text="Valider",command=s.ert)
+        s.label1.pack()
+        s.entry1.pack()
+        s.label2.pack()
+        s.entry2.pack()
+        s.validate.pack()
+    def ert(s):
+        general["ru"]=int(s.entry2.get())*"../"
+        general["title"]=s.entry1.get()
+        s.quit()
+
+
+main()
 
 def modiftitle(title:str):
     tt=os.path.splitext(title)[0]
     if "_Ap" in tt: return "Applications associées"
+    tt=tt.replace(" correction"," (corr)")
     tt=tt.replace("-cor"," (corr)")
     tt=tt.replace(" - Cor"," (corr)")
     tt=tt.replace("-V1"," version 1")
@@ -15,13 +37,13 @@ def modiftitle(title:str):
 
 txt1=[
     "<!doctype html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"utf-8\">\n    <title>",
-    title,
+    general["title"],
     "</title>\n    <link rel=\"stylesheet\" href=\"",
-    return_use,
+    general["ru"],
     "assets/general.css\">\n</head>\n<body>\n    <div class=\"invisible_header\"><a href=\"",
-    return_use,
+    general["ru"],
     "index.html\"><img class=\"images t035\" src=\"",
-    return_use,
+    general["ru"],
     "assets/link_menu.png\"></a></div>\n    <div class=\"centered_div main_mode tomanyobj\" style=\"gap:1.5rem;\">\n"
 ]
 txt2=[]
