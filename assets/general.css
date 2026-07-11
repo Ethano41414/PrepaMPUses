@@ -108,3 +108,14 @@ body {
     }
 }
 
+@media (max-width: 768px) {
+    .button_g {
+        width: 20rem;
+        height: 5rem;
+        font-size: 3rem;
+    }
+    .index_mode {bottom: 10rem;}
+    .centered_div {
+        gap: 3rem;
+    }
+}
