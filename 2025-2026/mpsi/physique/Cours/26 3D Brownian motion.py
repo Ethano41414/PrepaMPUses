@@ -1,0 +1,93 @@
+import numpy as np
+import matplotlib
+import matplotlib.pyplot as plt
+import matplotlib.animation as animation
+import mpl_toolkits.mplot3d.axes3d as p3
+
+
+np.random.seed(5)
+
+# Set up formatting for the movie files
+Writer = animation.writers['ffmpeg']
+writer = Writer(fps=15, metadata=dict(artist='Me'), bitrate=1800)
+
+
+def generateRandomLines(dt, N):
+    """
+    Create a line using a random walk algorithm.
+    """
+    
+    dX = np.sqrt(dt) * np.random.randn(1, N)
+    X = np.cumsum(dX, axis=1)
+    
+    dY = np.sqrt(dt) * np.random.randn(1, N)
+    Y = np.cumsum(dY, axis=1)
+    
+    dZ = np.sqrt(dt) * np.random.randn(1, N)
+    Z = np.cumsum(dZ, axis=1)
+    
+    lineData = np.vstack((X, Y, Z))
+    
+    return lineData
+
+
+def updateLines(num, dataLines, lines, dims):
+    for u, v in zip(lines, dataLines):
+        if dims == 2:
+            u.set_data(v[0:2, :num])
+        elif dims == 3:
+            u.set_data(v[0:2, :num])
+            u.set_3d_properties(v[2, :num])
+
+    return lines
+
+# Simulation properties
+dims = 2
+N = 501
+T = 1.0
+dt = T/(N-1)
+numPaths = 10
+
+# Create a list of NumPy array sized = numLines x dims x N
+data = [generateRandomLines(dt, N) for index in range(numPaths)]
+
+if dims == 2:
+    fig, ax = plt.subplots(figsize = (8,8))
+    ax = plt.axes(xlim=(-2.0, 2.0), ylim=(-2.0, 2.0))
+    ax.set_xlabel('X(t)')
+    ax.set_ylabel('Y(t)')
+    #ax.set_title('2D Discretized Brownian Paths')
+    
+    # Create a list of line2D objects
+    lines = [ax.plot(dat[0, 0:1], dat[1, 0:1])[0] for dat in data]
+    fig.tight_layout()
+
+elif dims == 3:
+    fig = plt.figure()
+    ax = p3.Axes3D(fig)
+    ax.set_xlim3d([-2.0, 2.0])
+    ax.set_xlabel('X(t)')
+
+    ax.set_ylim3d([-2.0, 2.0])
+    ax.set_ylabel('Y(t)')
+
+    ax.set_zlim3d([-2.0, 2.0])
+    ax.set_zlabel('Z(t)')
+    
+    #ax.set_title('3D Discretized Brownian Paths')
+    
+    # Create a list of line3D objects
+    lines = [ax.plot(dat[0, 0:1], dat[1, 0:1], dat[2, 0:1])[0] for dat in data]
+    fig.tight_layout()
+
+
+# Create the animation object
+anim = animation.FuncAnimation(fig, updateLines, N+1, fargs=(data, lines, dims),
+                                   interval=30, repeat=False, blit=False)
+
+#plt.tight_layout()
+#plt.show()
+
+# Uncomment this to save the movie
+anim.save('brownian2d_10paths.mp4', writer=writer)
+fig.savefig('last_frame_brownian2d_10paths.png', dpi = 600)

@@ -1,0 +1,44 @@
+Thème: Sobriété Efficacité Optimisation
+Maths:
+
+Un premier cas facile, l'optimisation linéaire, lire le passage 'Introduction sur un exemple en dimension 2"
+
+https://fr.wikipedia.org/wiki/Optimisation_lin%C3%A9aire
+
+
+L'optimisation en général avec beaucoup de sous lien possibles :
+
+https://fr.wikipedia.org/wiki/Optimisation_(math%C3%A9matiques)
+
+
+Dans un sous dossier, la méthode de Newton, pour parler efficacité.
+
+
+Un lien que vous trouverez de toutes façons :
+https://tipeshare.com/tipe-2027
+
+
+Physique:
+
+ - Principe du moindre temps en optique : les lois de la réfraction sont un exemple de l'optimisation du temps minimal pour aller d'un point A à un point B. 
+Serait-il possible de l'adapter à d'autres situations (trajets du quotidien) ?
+https://www.sciencedirect.com/science/article/pii/S163107211930052X
+
+- optimisation de l'épaisseur d'une lentille : les formules vues en optique géométrique ne s'applique que dans les conditions de Gauss. Peut-on optimiser l'épaisseur d'une lentille ayant une vergence élevée tout en conservant les approximations nécessaires 
+https://upcommons.upc.edu/entities/publication/db7546ae-1ce1-44d6-9475-3fef7cd14b6b
+
+- Rendement de puissance d'un générateur : la puissance délivrée par un générateur si sa résistance interne est similaire à celle du circuit. Qu'en est-il en complexe notamment lorsqu'on introduit une bobine ou un condensateur ? 
+https://luclasne.wordpress.com/wp-content/uploads/2015/09/rendement_des_systemes_electriques.pdf
+
+- Charge d'un condensateur : la charge d'un condensateur induit un rendement de seulement 50%, la décharge également de 50 %. Comment faire pour optimiser ce rendement ?
+Application au vélo : https://pi-pop.fr/
+
+- Optimisation d'un filtre passif. Exemple du filtre LCL optimisé et simulé : https://ieeexplore.ieee.org/abstract/document/6603326
+
+- Equation du mouvement d'un chat vulgarisé par BoBroff : https://www.youtube.com/watch?v=SH1JGawHBo8, lien vers l'article. https://arxiv.org/pdf/2409.05400. 
+Stabilité et instabilité d'un chat (à la limite du thème du TIPE mais je l'aime bien)
+
+- Cuisson d'un œuf : voir présentation du 09 février. Equation diffusion de la chaleur en régime non stationnaire
+
+- Un objet épais est plus résistant mais plus lourd. On cherche optimiser la surface d'un toit il doit être suffisamment épais pour résister aux différentes forces du vent (inclinaison adaptée) et pas trop lourd pour éviter qu'il ne s'effondre. 
+Optimisation de la structure d'un toit de stade : https://www.sustainable-buildings-journal.org/articles/sbuild/full_html/2017/01/sbuild170003/sbuild170003.html

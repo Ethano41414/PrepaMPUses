@@ -1,0 +1,44 @@
+#Bases
+
+Bases-1 : 61eb-6944998
+Bases-2 : 8d67-6944990
+Bases-3 : 5f61-6945003
+
+#Utilitaires
+
+Utilitaire 1 : 6889-6945004
+Utilitaire 2 : 801e-7251662
+
+
+# Cours 
+
+Cours 1 : ffc5-7029837
+Cours 2 : f5c8-7326355
+Cours 3 : cc2b-7597673
+Cours 4 :
+Cours 5 : 5a4b-2446538
+Cours 6 : 196d-8868841
+Cours 9 : d73c-9789752
+
+
+
+#TP cddc
+
+TP1 	: eebc-7029797  correction : ed31-7276444
+TP2 	: 930b-7326354  correction : 3211-4240650
+TP3	: f42a-7744990  correction : 16ce-7859818
+TP4	: 43db-8039830  correction : de1a-8123004
+TP5	: b8aa-8272555  correction : 006c-8424752
+TP6 	: 06a4-8868783
+TP7	: 7be9-9267584
+TP8	: f059-9560202
+TP9  	: 1808-9914667  correction : ec81-6173610
+TP10	: 6e8c-5868167  correction : 5e3e-10309929
+TP11 	: a335-10517355 correction : 0b91-3621720
+TP12	: e23a-11262100
+TP13    : afc4-11262101 correction : fd8b-3722043
+
+#Oraux centrales
+
+Fonctions  : 0a78-4006155
+Fonctions2 : 80c0-3877037
