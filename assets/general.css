@@ -29,7 +29,7 @@ body {
     width: 15rem;
     height: 3rem;
 }
-.grey {background-color: dimgray;}
+.gray {background-color: dimgray;}
 .larger {width: 24rem; height: 3rem; font-size: 1.5rem;}
 
 .buttons { /*les deux boutons anglais et tp*/
