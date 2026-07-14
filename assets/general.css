@@ -87,6 +87,7 @@ body {
     text-align: center;
     line-height: 1.4;
 }
+.txt_link {color: beige;font-size: 1.5rem;}
 
 .hided_button {
     width: 4rem;
@@ -123,4 +124,5 @@ body {
     .larger {width: 17rem;}
     .index_mode {bottom: 5.5rem;}
     .main_mode {bottom: 0rem;}
+    .txt_link {font-size: 1.2rem;}
 }
