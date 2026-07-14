@@ -124,5 +124,5 @@ body {
     .larger {width: 17rem;}
     .index_mode {bottom: 5.5rem;}
     .main_mode {bottom: 0rem;}
-    .txt_link {font-size: clamp(0.6rem, 1.2rem, 1.2rem);}
+    .txt_link {font-size: clamp(0.6rem, 1.4rem, 1.4rem);}
 }
