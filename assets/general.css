@@ -112,8 +112,9 @@ body {
     .button_g {
         width: 13rem;
         height: 2rem;
-        font-size: 1rem;
+        font-size: 0.4rem;
     }
+    .white_text {font-size: 0.3rem;}
     .index_mode {bottom: 10rem;}
     .centered_div {
         gap: 1rem;
