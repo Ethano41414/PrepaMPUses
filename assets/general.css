@@ -70,7 +70,7 @@ body {
     gap: 1rem;
 
     position: fixed;
-    top: 4.2rem;
+    top: 5.5rem;
     left: 0;
     right: 0;
     overflow-y: auto;
@@ -118,6 +118,9 @@ body {
     .white_text {font-size: 0.6rem;}
     .index_mode {bottom: 10rem;}
     .centered_div {
+        top: 4.3rem;
         gap: 1rem;
     }
+    .index_mode {bottom: 5.5rem;}
+    .main_mode {bottom: 0rem;}
 }
