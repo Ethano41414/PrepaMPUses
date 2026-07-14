@@ -30,7 +30,7 @@ body {
     height: 3rem;
 }
 .gray {background-color: dimgray;}
-.larger {width: 24rem; height: 3rem; font-size: 1.5rem;}
+.larger {width: 24rem; height: 3rem}
 
 .buttons { /*les deux boutons anglais et tp*/
     display: flex;
@@ -120,6 +120,7 @@ body {
         top: 4.3rem;
         gap: 1rem;
     }
+    .larger {width: 17rem;}
     .index_mode {bottom: 5.5rem;}
     .main_mode {bottom: 0rem;}
 }
