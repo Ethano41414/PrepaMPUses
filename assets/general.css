@@ -110,9 +110,9 @@ body {
 
 @media (max-width: 768px) {
     .button_g {
-        width: 20rem;
-        height: 5rem;
-        font-size: 3rem;
+        width: 15rem;
+        height: 3rem;
+        font-size: 1.5rem;
     }
     .index_mode {bottom: 10rem;}
     .centered_div {
