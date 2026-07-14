@@ -110,11 +110,12 @@ body {
 
 @media (max-width: 768px) {
     .button_g {
-        width: 13rem;
+        width: 11rem;
         height: 2rem;
-        font-size: 0.4rem;
+        font-size: 0.9rem;
     }
-    .white_text {font-size: 0.3rem;}
+    .header h2 {font-size: 1rem;}
+    .white_text {font-size: 0.6rem;}
     .index_mode {bottom: 10rem;}
     .centered_div {
         gap: 1rem;
